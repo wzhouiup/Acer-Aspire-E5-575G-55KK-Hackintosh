@@ -5,7 +5,7 @@ Hackintosh guide for the Acer E15 series E5-575G-55KK laptop
 * Intel i5-7200u
 * IGPU: Intel HD 620
   * DGPU: Nvidia 940mx 2GB (disabled)
-* Realtek ALC255
+* Realtek ALC255 (layout 3)
 * I2C touchpad when "Advanced" touchpad selected in BIOS
 
 ## Instructions:
@@ -22,7 +22,9 @@ Use the original Clover bootloader from https://sourceforge.net/projects/clovere
    > RealtekRTL8111  
    > VoodooPS2Controller
 
-Use config_HD615_620_630_640_650.plist from the guide. I recommend using [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) if/when making changes to a .plist.
+Use config_HD615_620_630_640_650.plist from the guide (rename to config.plist). I recommend using [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) if/when making changes to a .plist.
+
+These files and some more resources can be found in the repo.
 
 -----
 
@@ -97,9 +99,21 @@ DefinitionBlock ("", "SSDT", 1, "hack", "_ALC255", 0)
 ````
 
 -----
+
+**WiFi**
+
+The default Qualcomm WiFI card in M.2 format is incompatible with OSX, so you must replace the card if you would like to use WiFi/Bluetooth.
+
+I am currently waiting for my new wifi card to arrive, but you may like to try the [Broadcom Wifi/BT guide](https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/) with one of the supported chips.
+
+Updated 05/29/19
+
+-----
 **Errors/Fixes**
 
-Please report any issues or possible improvements to the guide and I will try my best to fix them asap.
+Please report any issues or possible improvements to the guide and I will try my best to fix them ASAP.
+
+  Carefully read the attached guides and [Rehabman's Laptop FAQ](https://www.tonymacx86.com/threads/faq-read-first-laptop-frequent-questions.164990/) if you encounter any problems.
   
 -----  
 
@@ -112,4 +126,4 @@ Please report any issues or possible improvements to the guide and I will try my
 RehabMan  
 insanelydeepak  
 People of the TonyMacx86 forum  
-me for making this guide
+me for making this guide 
