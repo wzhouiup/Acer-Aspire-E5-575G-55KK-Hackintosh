@@ -40,11 +40,11 @@ Use config_HD615_620_630_640_650.plist from the guide. I recommend using [Clover
 
 **Fixing audio**
 
-   **Note:** *Use Layout 3 for any audio related patching, and simply inject in .plist when ready*
+   **Note:** *Use Layout 3 for any audio related patching, and simply inject in .plist (in Clover Configurator) when ready*
    
    [Audio w/ AppleALC kext](https://www.tonymacx86.com/threads/an-idiots-guide-to-lilu-and-its-plug-ins.260063/#AppleALC)
    
-   To fix the garbled audio through headphones, install CodecCommander kext and create a file named SSDT-ALC255.aml in /EFI/patched containing:
+   To fix the garbled/warped audio through headphones, install CodecCommander kext and create a new file in MaciASL named SSDT-ALC255.aml in /EFI/Clover/ACPI/patched containing:
    
    ```
    // Credit to insanelydeepak
@@ -95,7 +95,11 @@ DefinitionBlock ("", "SSDT", 1, "hack", "_ALC255", 0)
 }
 //EOF
 ````
-   
+
+-----
+**Errors/Fixes**
+
+Please report any issues or possible improvements to the guide and I will try my best to fix them asap.
   
 -----  
 
@@ -103,7 +107,9 @@ DefinitionBlock ("", "SSDT", 1, "hack", "_ALC255", 0)
 
 
  
-**Thanks to:**
+### **Thanks to:**
 
 RehabMan  
-People of the TonyMacx86 forum
+insanelydeepak  
+People of the TonyMacx86 forum  
+me for making this guide
