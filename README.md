@@ -95,6 +95,7 @@ DefinitionBlock ("", "SSDT", 1, "hack", "_ALC255", 0)
 }
 //EOF
 ````
+todo: get HDMI audio working
 
 -----
 
