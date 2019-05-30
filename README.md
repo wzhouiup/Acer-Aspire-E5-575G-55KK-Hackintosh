@@ -40,7 +40,7 @@ Use config_HD615_620_630_640_650.plist from the guide (rename to config.plist). 
 
 **Fixing audio**
 
-   **Note:** *Use Layout 3 for any audio related patching, and simply inject in .plist (in Clover Configurator) when ready*
+   **Note:** *Use Layout 3 for any audio related patching, and simply inject in .plist (in Clover Configurator) when ready. There may or may not be HDMI audio since the dedicated GPU was disabled*
    
    [Audio w/ AppleALC kext](https://www.tonymacx86.com/threads/an-idiots-guide-to-lilu-and-its-plug-ins.260063/#AppleALC)
    
@@ -95,7 +95,6 @@ DefinitionBlock ("", "SSDT", 1, "hack", "_ALC255", 0)
 }
 //EOF
 ````
-todo: get HDMI audio working
 
 -----
 
