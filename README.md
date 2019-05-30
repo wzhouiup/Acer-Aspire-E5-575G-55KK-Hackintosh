@@ -24,8 +24,6 @@ Use the original Clover bootloader from https://sourceforge.net/projects/clovere
 
 Use config_HD615_620_630_640_650.plist from the guide (rename to config.plist). I recommend using [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) if/when making changes to a .plist.
 
-These files and some more resources can be found in the repo.
-
 -----
 
 **Follow these guides after installation**
@@ -111,7 +109,7 @@ Updated 05/29/19
 -----
 **Errors/Fixes**
 
-Please report any issues or possible improvements to the guide and I will try my best to fix them ASAP.
+Please report any issues/things missing or possible improvements to the guide and I will try my best to fix them ASAP.
 
   Carefully read the attached guides and [Rehabman's Laptop FAQ](https://www.tonymacx86.com/threads/faq-read-first-laptop-frequent-questions.164990/) if you encounter any problems.
   
