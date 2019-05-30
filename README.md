@@ -1,5 +1,5 @@
 # Acer-Aspire-E5-575G-55KK-Hackintosh
-Hackintosh guide for the Acer E15 series E5-575G-55KK laptop
+Hackintosh guide for the Acer E15 series E5-575G-55KK laptop on Mojave 10.14
 
 **Main Specs:** 
 * Intel i5-7200u
