@@ -102,9 +102,15 @@ DefinitionBlock ("", "SSDT", 1, "hack", "_ALC255", 0)
 
 The default Qualcomm WiFI card in M.2 format is incompatible with OSX, so you must replace the card if you would like to use WiFi/Bluetooth.
 
-I am currently waiting for my new wifi card to arrive, but you may like to try the [Broadcom Wifi/BT guide](https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/) with one of the supported chips.
+~I am currently waiting for my new wifi card to arrive (BCM94350ZAE, aka DW1820A), but you may like to try the [Broadcom Wifi/BT guide](https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/) with one of the supported chips.~
 
-Updated 05/29/19
+*Edit 7/24/19*
+
+https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/
+I have tried both the CN-0VW3T3 and the CN-08PKF4 model BCM94350ZAE cards, with the latter working OOTB despite all the posts about it being problematic. The CN-0VW3T3 worked fine with AirportBrcmFixup.kext but I am stil trying to get bluetooth recognized. YMMV
+
+
+
 
 -----
 **Errors/Fixes**
