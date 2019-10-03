@@ -109,6 +109,9 @@ The default Qualcomm WiFI card in M.2 format is incompatible with OSX, so you mu
 https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/
 I have tried both the CN-0VW3T3 and the CN-08PKF4 model BCM94350ZAE cards, with the latter working OOTB despite all the posts about it being problematic. The CN-0VW3T3 worked fine with AirportBrcmFixup.kext but I am stil trying to get bluetooth recognized. YMMV
 
+*Edit 10/3/19*
+Random freezes seem to be caused by any of the BCM94350ZAE cards (which seem to be "fake") so I no longer recommend them. If buying the CN-0VW3T3 MAKE SURE the seller sells the correct device ID (check reviews).
+
 
 
 
